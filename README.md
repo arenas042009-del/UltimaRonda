@@ -1,45 +1,80 @@
-# Última Ronda
+# ManusCC0 Sans CJK SC
 
-Juego arcade 2D de supervivencia zombi en arena cenital, creado con Godot. Sobrevive oleadas cada vez más intensas, gana puntos al eliminar zombis y compra mejoras entre rondas.
+A compact Simplified Chinese sans companion to the original ManusCC0 English UI family.
+The generated font files are dedicated to the public domain under **CC0 1.0 Universal**.
+They may be used, embedded, modified and redistributed commercially without attribution,
+a credits screen, or keeping a copyright/license notice beside the font.
 
-## Ejecutar el juego
+## Game usage
 
-1. Instala Godot 4.x (usa una versión compatible con el proyecto y sus plantillas de exportación).
-2. Abre `project.godot` desde el Project Manager de Godot.
-3. Ejecuta el proyecto con **F6/F5** o el botón de reproducir.
+Keep **ManusCC0** as the primary family. Use **ManusCC0 Sans CJK SC** after it for Chinese
+glyphs. Bundle `fonts/ManusCC0SansCJKSC-Regular.woff2` as the default game fallback for all
+English weights. Each WOFF2 is below 1,000,000 bytes. The larger TTF files are authoring /
+installation alternatives; do not bundle TTF and WOFF2 copies of the same face in a game.
 
-El directorio `site/` contiene la exportación web incluida con esta entrega. Para servirla localmente, desde la raíz del proyecto ejecuta `python3 -m http.server 8000 --directory site` y abre `http://localhost:8000`.
+The font contains **6,547 codepoints**: the existing shared game repertoire of 6,500 common
+Simplified Chinese characters plus 47 game symbols/name/text extras. It is a bounded
+repertoire, not every Chinese character. Rare player-name characters outside it are not
+supported. Preserve such input rather than silently deleting unsupported characters.
 
-## Controles
+The CJK faces have fixed 1,000-unit advances and match ManusCC0's 1,020 / -250 line metrics.
+Regular is the default compact runtime face. Medium and Bold are optional independently
+bundled faces for projects that require stronger Chinese emphasis; use only needed styles.
 
-- **Moverte:** WASD o flechas.
-- **Apuntar:** ratón.
-- **Disparar:** clic izquierdo o Espacio.
-- **Pausar/reanudar:** Esc o P.
-- **Comprar mejora:** 1, 2 o 3 durante la tienda entre rondas.
-- **Continuar sin comprar:** Enter.
-- **Reintentar tras la derrota:** R o Enter.
-- **Volver al menú desde pausa:** M.
+```css
+@font-face {
+  font-family: "ManusCC0 Sans CJK SC";
+  src: url("ManusCC0SansCJKSC-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.game-ui { font-family: "ManusCC0", "ManusCC0 Sans CJK SC", sans-serif; }
+```
 
-## Estructura
+## Provenance and editable source
 
-- `scenes/`, `scripts/`, `autoload/`: escenas y lógica principal en GDScript.
-- `assets/`: sprites, fondos, sonidos, fuentes y sus licencias/import sidecars; están incluidos y deben conservarse en Git.
-- `web/` y `localization/`: cargador HTML y datos de localización.
-- `server/`: backend opcional para el inicio de sesión Manus, con migración y lockfile de npm.
-- `site/`: build web exportado listo para servir como estático.
-- `test/`: pruebas del juego y contratos.
+The font is rendered from GlyphWiki skeletal data under its **unrestricted permission
+license**. That upstream data license is not itself called CC0. It permits unlimited
+use, copying and distribution, with or without modification, commercially or otherwise,
+and imposes no attribution or notice-retention condition. The newly generated font
+files and authored build/design files are released under CC0. No Noto / OFL font outlines,
+font tables or rendered glyphs are used. See `PROVENANCE.md` for the pinned source and
+separation of font, data and build-tool licenses.
 
-## Pruebas y exportación
+`source/glyphwiki-skeletons.json.gz` is the complete editable skeletal source, including
+exact historical component references. `source/build_font.py` and `render_kage.cjs`
+record the geometry profile. To edit a glyph, decompress the JSON and change its selected
+component data; preserve valid KAGE semantics and rerun validation.
 
-Se necesita Node.js y Godot instalado en PATH para ejecutar las pruebas: `npm test`. Para exportar desde Godot, instala también las plantillas de exportación correspondientes y usa el preset `Web` en Project → Export. `npm run export` es un atajo para exportar a `dist/`.
+## Rebuild
 
-Algunos comandos heredados del entorno Manus (`npm run check`, `npm run dev`, `npm run build` y `npm run preview:*`) usan un runtime de desarrollo proporcionado por la plataforma Manus y no forman parte de este ZIP. El proyecto base y la partida como invitado sí se pueden ejecutar localmente con Godot.
+Use Python 3.9+ and Node.js, then install the pinned build-only dependencies:
 
-## Inicio de sesión
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r source/requirements.txt
+(cd source && npm ci)
+.venv/bin/python source/build_font.py --style all
+.venv/bin/python source/validate_font.py
+```
 
-El inicio de sesión Manus es opcional para jugar. El backend de `server/` depende de servicios de Manus y requiere configuración de entorno y base de datos compatible. Fuera de Manus no arrancará sin un proveedor/entorno equivalente. No subas secretos reales, credenciales, archivos `.env` ni valores privados a GitHub.
+The external KAGE renderer is GPL-3.0 build software. It is installed by npm; its source
+and runtime are not embedded in the font, not distributed with games, and not included
+in this pack. Keep its own license intact when distributing the build tool itself.
 
-## Licencias
+## Size and performance
 
-Conserva los avisos de `site/THIRD_PARTY_NOTICES.txt`, los archivos de licencia junto a las fuentes y `docs/provenance/`.
+- Preserve shared radicals as skeletal components in the authoring source.
+- Generate only the documented repertoire; omit unused language/vertical-layout tables.
+- Use one Regular fallback at runtime unless additional styles are needed.
+- Resolve overlapping stroke contours and normalize winding before compilation.
+- Remove redundant polygon samples with maximum 1 font-unit geometric deviation
+  (0.024 pixel at 24 px), without rasterizing glyphs or removing characters.
+- Use compact glyph-name-free TrueType outlines, then lossless WOFF2/Brotli compression.
+- Do not enable whole-font MSDF caches or large prebaked glyph atlases by default.
+- Loader fonts should be small subsets of this same CC0 source, containing the union of
+  loader-localization text. They do not replace the full runtime repertoire for user input.
+
+See `proofs/` for build, repertoire, outline, shaping and rendering checks. CC0 has no
+warranty; this release does not claim a linguistic review of every rare character.

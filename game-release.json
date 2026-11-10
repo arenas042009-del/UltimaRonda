@@ -1,0 +1,1062 @@
+{
+  "schema": "manus.game.release/v1",
+  "engineVersion": "4.7.2.stable.official.ed1daf0bf",
+  "inputs": {
+    "objectFormat": "sha1",
+    "tree": "52827df228b3ab62a855431f35208f3d2ebff50d",
+    "entries": [
+      {
+        "path": ".gitignore",
+        "type": "file",
+        "mode": "100644",
+        "object": "c98dfbe659b8f3b0397fda3bec07db7d19fd4da4"
+      },
+      {
+        "path": ".manus-game-template.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "de3b59948d2f00eda1c075e3721a5a76010924d7"
+      },
+      {
+        "path": ".manus-starter-init.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "c526dff2ef8e6014bf0949db7762a8f43d533beb"
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "7b04be98eeeae4035830c5e08b1fa9661c84ab3a"
+      },
+      {
+        "path": "TODO.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "ca74ca555afe90dfc822436f3ca4cd57ae909171"
+      },
+      {
+        "path": "assets.lock.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "1b757a859d44d6a04119547526280f9c904f91fa"
+      },
+      {
+        "path": "assets/game/arena.png",
+        "type": "managed",
+        "sha256": "sha256:aba3795b2a0fd8ef94945c4a4df8c23c3029bd435d891b21217186968be27a63"
+      },
+      {
+        "path": "assets/game/arena.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4fdec39f8a281048b3be049141654b5ff39f358f"
+      },
+      {
+        "path": "assets/game/arena_runtime.png",
+        "type": "managed",
+        "sha256": "sha256:ca016c22c5f708ef88ce9daa61db342ed4dea383e165eebb9e04efc9784b7163"
+      },
+      {
+        "path": "assets/game/arena_runtime.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "0b88c205a50d404ff43636feca4ca2f1b3e7870c"
+      },
+      {
+        "path": "assets/game/superviviente.png",
+        "type": "managed",
+        "sha256": "sha256:30599f880a28b24c0298c62aecdd561eed2e64358b6a6eef390de09cc5793007"
+      },
+      {
+        "path": "assets/game/superviviente.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b3da42dc50584aeac4142daae450edc8a4bfca89"
+      },
+      {
+        "path": "assets/game/superviviente_runtime.png",
+        "type": "managed",
+        "sha256": "sha256:ff97b0df9741cf35dced823412695ffb69041193e01296ee2c08162b3daf59ec"
+      },
+      {
+        "path": "assets/game/superviviente_runtime.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "284c566019fd784ec19143445599bc1208cc7985"
+      },
+      {
+        "path": "assets/game/zombi.png",
+        "type": "managed",
+        "sha256": "sha256:41cc01c6bcb4efc7c67065a831562ec52718bbbe2f96153d6db45e62ecc9f16e"
+      },
+      {
+        "path": "assets/game/zombi.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c1570415d06351d7d9f77cc383b0279de9ebf7f9"
+      },
+      {
+        "path": "assets/game/zombi_runtime.png",
+        "type": "managed",
+        "sha256": "sha256:bc1d9413c607ed859b8ecb5dae78c4beb8a33a24135ae8f07da1304d7f555626"
+      },
+      {
+        "path": "assets/game/zombi_runtime.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "ce0ac5ba662beb49c61be89397869c5c07716095"
+      },
+      {
+        "path": "assets/share/favicon.png",
+        "type": "managed",
+        "sha256": "sha256:116fe9ec125dc96eba304d5771a81121090e870939b05d859965bba14fc12e67"
+      },
+      {
+        "path": "assets/share/favicon.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5567b24bfe86f5d02dbf041322be94e087766a74"
+      },
+      {
+        "path": "assets/share/favicon_runtime.png",
+        "type": "managed",
+        "sha256": "sha256:70ce57ccb1ea277163d43bdc2b02cbff735c54e09de4466bfff0cd9ebd646eb6"
+      },
+      {
+        "path": "assets/share/favicon_runtime.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "41618eedebef725072d2fb3c693ffd3c09d58b69"
+      },
+      {
+        "path": "assets/share/favicon_web.png",
+        "type": "managed",
+        "sha256": "sha256:6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2"
+      },
+      {
+        "path": "assets/share/favicon_web.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "8bedc923d994be0e35d41f3ccb2e74b555189cb7"
+      },
+      {
+        "path": "assets/share/og.png",
+        "type": "managed",
+        "sha256": "sha256:3d62a407999849846b12cf6e0e1c4f5ed643b162b4d39db6ff30569ad5ec8b41"
+      },
+      {
+        "path": "assets/share/og.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "0f865651f1a972998c3a0da3f43f38e76734ecca"
+      },
+      {
+        "path": "assets/share/og_runtime.png",
+        "type": "managed",
+        "sha256": "sha256:6fcad798a7ce17b044c82872b861f6982916fcc440951fdd0af03b491a117ef7"
+      },
+      {
+        "path": "assets/share/og_runtime.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "7ac0934a28da775064ad94ee5033c7edcba99a70"
+      },
+      {
+        "path": "assets/share/og_runtime_fixed.png",
+        "type": "managed",
+        "sha256": "sha256:92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288"
+      },
+      {
+        "path": "assets/share/og_runtime_fixed.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "10253eb8008f69d1411f2c22513cf24fed84750d"
+      },
+      {
+        "path": "assets/template/ai_drone.webp",
+        "type": "managed",
+        "sha256": "sha256:9670e95c1344c4eea1d82f943ea2ac30805d07158efe06d655bf0d17ec56e3fb"
+      },
+      {
+        "path": "assets/template/ai_drone.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4f01726e6c2e63021e81d0007aadf85dd6c2cd24"
+      },
+      {
+        "path": "assets/template/ai_mothership.webp",
+        "type": "managed",
+        "sha256": "sha256:670f31e7f3b931a833e15a94a62868b4ceb5b64389e204add69352f56546321f"
+      },
+      {
+        "path": "assets/template/ai_mothership.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "0f1da1e3d1314013dc7e270a5da9bc16f2c6821a"
+      },
+      {
+        "path": "assets/template/audio/explosion.ogg",
+        "type": "managed",
+        "sha256": "sha256:ab256dfd22b760c1ccc9f58ecdb06749a2a5b19a42d8f1733539e5850a200975"
+      },
+      {
+        "path": "assets/template/audio/explosion.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "218ebffb3b80cc7fd852a48df29407f14764246b"
+      },
+      {
+        "path": "assets/template/audio/hit.ogg",
+        "type": "managed",
+        "sha256": "sha256:50650c1555ddf26705b9133eda2829a316d4298bcdc39aa3fd282d4aa3468712"
+      },
+      {
+        "path": "assets/template/audio/hit.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d333654ed20eefd12b80b1d452f56a0561f4d933"
+      },
+      {
+        "path": "assets/template/audio/shoot.ogg",
+        "type": "managed",
+        "sha256": "sha256:e3885aefde5f03636e557a0b724d75eb5ae0d63351cac7a1f95426a33ef7940c"
+      },
+      {
+        "path": "assets/template/audio/shoot.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6107737920b98a34cf0b8c9095dca9b8f2f61658"
+      },
+      {
+        "path": "assets/template/audio/stargrave_battle.ogg",
+        "type": "managed",
+        "sha256": "sha256:5b47f61f2606e87ff310168df75ad466ab2f12fc27521b54a2ab980c4e6dfd07"
+      },
+      {
+        "path": "assets/template/audio/stargrave_battle.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "83d12f9224aebdbb7cda64d3b739a86a7c8b394a"
+      },
+      {
+        "path": "assets/template/dog_ship.webp",
+        "type": "managed",
+        "sha256": "sha256:566fb270ab3f8681b18de157ec9a0ca7e7d066c3451d12bb2678de96b0577b27"
+      },
+      {
+        "path": "assets/template/dog_ship.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "06cd6c0c37e79d8c07315c55e979d854a75295fa"
+      },
+      {
+        "path": "assets/template/elite_boss_barrage.webp",
+        "type": "managed",
+        "sha256": "sha256:7e1e4a6e27f8b4a18932857e806c12ffb7127869b844bb72fcdc4114ad177e86"
+      },
+      {
+        "path": "assets/template/elite_boss_barrage.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "657db923bb8c2c065a99680c570a23477c04f62f"
+      },
+      {
+        "path": "assets/template/elite_boss_geometry.webp",
+        "type": "managed",
+        "sha256": "sha256:d306d7625d86b99805218c307d2d5df409ddd8bb1293075799b1832f290724f6"
+      },
+      {
+        "path": "assets/template/elite_boss_geometry.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6ce6f569b0d4c3e07d64c2c1c3ec5c6cb40f3585"
+      },
+      {
+        "path": "assets/template/elite_boss_laser.webp",
+        "type": "managed",
+        "sha256": "sha256:dcb226f78cacbe20eb9d8f5159d65ef3eedfc1597a7a84fdd2f273602e335174"
+      },
+      {
+        "path": "assets/template/elite_boss_laser.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b199070b0a80707abb2046f7a1009ee152186475"
+      },
+      {
+        "path": "assets/template/fonts/Exo2-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "5bec9840d2e0df42d80d6fac55279d1d5e5b9199"
+      },
+      {
+        "path": "assets/template/fonts/Exo2-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:7dd9d9a08bca3097f107c089b8b1f12ed1e99330a04243220f8d187da9f491ed"
+      },
+      {
+        "path": "assets/template/fonts/Exo2-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a85907e5282149b649d0b437e0e9fbee2d87bcb8"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-Bold.woff2",
+        "type": "managed",
+        "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-Bold.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6110afae535b3de59a4c7cf006ee82251d82f9bb"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-CC0.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0SansCJKSC-Bold.woff2",
+        "type": "managed",
+        "sha256": "sha256:1f36038ab04123370c72fda640a309e374b58cc3121c493f129e38a53a4225f0"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0SansCJKSC-Bold.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4fe19407af8004695211a3a5af84e93aca77e74e"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0SansCJKSC-CC0.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "fd584a11fda82753f589529fd63e075eacf2de35"
+      },
+      {
+        "path": "assets/template/fonts/SOURCES.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "a639846f357aee3fa2b5717cc04957d015381a1b"
+      },
+      {
+        "path": "assets/template/fonts/display/display_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "c0bb2b75cf811e30a5227e7ffd1126a854187c51"
+      },
+      {
+        "path": "assets/template/fonts/display/display_title.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "beb9c5852978e6eea6e74d7b11f77f873a702c7d"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "194d432564c93ceff8bfd20db08123a25f506955"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_medium.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "083693f73a6b0b144e7222a693b10e7759e43c8d"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_regular.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "36df1b8d6e91fb9cda7a22dbf8c70a51dba086ee"
+      },
+      {
+        "path": "assets/template/fonts/runtime-cjk.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "2abefff57b45b0b85445c2f3c4887c036a5fd2e6"
+      },
+      {
+        "path": "assets/template/fonts/ui_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "dd6478d3603641378526462aaef32a96b3bd5ebc"
+      },
+      {
+        "path": "assets/template/fonts/ui_medium.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "85412f2f5e55c590017b5dfb2893c22b9d637883"
+      },
+      {
+        "path": "assets/template/fonts/ui_regular.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "bc3fa0c21a48e1916fb26e70b71eda8ff5786174"
+      },
+      {
+        "path": "assets/template/star_graveyard.webp",
+        "type": "managed",
+        "sha256": "sha256:f448356c85ab9fb59fb2edb8a939a28563e0a2c1e255372d8c474c85dccf03fa"
+      },
+      {
+        "path": "assets/template/star_graveyard.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "cd03ba8b5862099da90f777d7144846730af9985"
+      },
+      {
+        "path": "assets/template/star_graveyard_mid.webp",
+        "type": "managed",
+        "sha256": "sha256:7ba46b9df1c9a1042f3fb3bea3691d24c0098dbb167fb1e690904fb8bb0b0c70"
+      },
+      {
+        "path": "assets/template/star_graveyard_mid.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e326726e3c6faaf6550136b39f436dda9264ee83"
+      },
+      {
+        "path": "assets/template/star_graveyard_near.webp",
+        "type": "managed",
+        "sha256": "sha256:681d2776cd436ad57a1876d3d864b28d816e8ef0bb34caadd18610734ea5dabc"
+      },
+      {
+        "path": "assets/template/star_graveyard_near.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "fdb90b34171678ad12b582a46d72203cb19ea30a"
+      },
+      {
+        "path": "autoload/i18n.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "b3d18fd5dc754d5d712b5eef3c1b43a91b7e1fc1"
+      },
+      {
+        "path": "autoload/i18n.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "dc24a38c6a3f8a57e332ce06abaa023642faf9e3"
+      },
+      {
+        "path": "autoload/manus_font_theme.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "68fd326b4a5478a63d4c6fda9103591421f95f07"
+      },
+      {
+        "path": "autoload/manus_font_theme.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "8af50011879040c498d0ebb34813af7cca5cec81"
+      },
+      {
+        "path": "autoload/tuning_store.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "2dc5bd51a9f1d722b69f2722545b5975162b823d"
+      },
+      {
+        "path": "autoload/tuning_store.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "19473698412b9fa3d27b41e3f11bcad19dc54076"
+      },
+      {
+        "path": "docs/game-multiplayer.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "c08672b6afbec2b4a77655b2413a8ae3431a3a8a"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-sans-cjk-sc/DESIGN.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "2cc932edb7df95010834e8ba758a53a8dbfe989f"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-sans-cjk-sc/LICENSE",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-sans-cjk-sc/PROVENANCE.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "6cca1a4801465607cfa66b796dcd210d1020437d"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-sans-cjk-sc/README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "5adeedde5c75c14677c43de4bd6fcadb8f81fc63"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-sans-cjk-sc/source/GlyphWiki-LICENSE.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "a3fc09e800f2afe13cba081be3cdd0c2b3ec1c5c"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/DESIGN.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "777d03b7bf50c866468ad007e6b84765119b6f85"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/LICENSE",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "174a74cb1c84a955706817734449a5e7becd2a4b"
+      },
+      {
+        "path": "docs/provenance/fonts/replacement-fonts.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "ff99a8a2531147165b57112f2284401fe3b17831"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/Orbitron-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "91ede459e18c22d3f2ba7c27d925b49cc945abe4"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/SmileySans-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "d4511630b94994b2b3eb0c99cec1a11cac804004"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/index.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "2e8fc34e56c321afdbfa4bfbf1b8cee6c9da0b7c"
+      },
+      {
+        "path": "export_presets.cfg",
+        "type": "file",
+        "mode": "100644",
+        "object": "a3b9ac2b4d122b4b71aba0843cfce7a51eb37a6c"
+      },
+      {
+        "path": "localization/en.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "37c58b8586431926e1386795724b9b4ce2b828bd"
+      },
+      {
+        "path": "localization/es.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "f9e097c6dd14be62ef37c18ce29b1d0842381459"
+      },
+      {
+        "path": "localization/zh-CN.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "09cfaff864956aafd1a848ba27b1d5398bfbd534"
+      },
+      {
+        "path": "package-lock.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "7c247ba7d78402fdf2e2f4eac5bc5d0b561f7a7e"
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "24b4779069e5cec154fe171ecddc8b1c746b4228"
+      },
+      {
+        "path": "project.godot",
+        "type": "file",
+        "mode": "100644",
+        "object": "91d9e72d440924799cb2fe75692aa5dd78163523"
+      },
+      {
+        "path": "scenes/game.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "8a6b55883a4afef0b62ba782bf749b28c11e91bf"
+      },
+      {
+        "path": "scenes/title_screen.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "faafab69c6cf944481b65c1d9405c989601e327a"
+      },
+      {
+        "path": "scripts/check-exported-pack.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "194f2158b71131da230e62c412c0c53dfde7b922"
+      },
+      {
+        "path": "scripts/check-game.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "2e3f84027a4bcdf3c15eaec6a551faee461c4d08"
+      },
+      {
+        "path": "scripts/check.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "725a0e3e61b02dc79f7b88f24818e1c648574cef"
+      },
+      {
+        "path": "scripts/game.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "54007dcd1ac9da87cf63f1462720898124130219"
+      },
+      {
+        "path": "scripts/game.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "38fd45648e069a23f0263976f2494f8fc3930794"
+      },
+      {
+        "path": "scripts/godot-check.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "3ce9ca96ee1525e463cb9e801bc18758547ce680"
+      },
+      {
+        "path": "scripts/holo_ui.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "924a439654fb0780055f71abc9cab95a2b5a7629"
+      },
+      {
+        "path": "scripts/holo_ui.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "27632f30bd5f446e14256966a60f4aca295edae0"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_backend.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5b11ca0a310976b075d441b47bb9f5bbf970a6af"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_backend.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "49edbc9f71e0905945bc3d8fd3589c8304b79436"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_player.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4d23223998288ffdc9391dde1206b13dfe89b765"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_player.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "c1ffc4dd18b24ea297075379251c5347c4263ab1"
+      },
+      {
+        "path": "scripts/manus/game_fonts.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "524c08cd370a3282774603760c2769bef4d77755"
+      },
+      {
+        "path": "scripts/manus/game_fonts.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "cae6075bf4fc3a69ef4608c03db6d904617ee0b2"
+      },
+      {
+        "path": "scripts/manus/open_source_licenses.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "f96b57b13634687de25c403cb5e9cf7fc6c7abc4"
+      },
+      {
+        "path": "scripts/manus/open_source_licenses.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "659e1adbc1e44dce85d38d88aee191c31f6f16da"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_adapter.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "df19f708f3b96cd25a67877c5f7e11bd8e3927ae"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_adapter.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "f70611aeffd4c34611e6c6f53ede74e83add881e"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_transport.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "845eedb5cfe41711f0f4b14f093159b45c825ecc"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_transport.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "195ccb5efaf192a57781d0137de0c4a64a47bdcc"
+      },
+      {
+        "path": "scripts/manus/procedural_sfx.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5bac89f3f21e5b2fe574b0896ad0f90f1792247a"
+      },
+      {
+        "path": "scripts/manus/procedural_sfx.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "598e7e164d809c87a35436f30cbfdba5c06e5316"
+      },
+      {
+        "path": "scripts/manus/runtime-command.cjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "39fd46daecc470eaf3731632a1969e0f382144ad"
+      },
+      {
+        "path": "scripts/manus_auth.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "af1fe8a1f55afa2e6e6ab078723d8ba1a9403d2b"
+      },
+      {
+        "path": "scripts/manus_auth.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "fe6caec133b4be910561a5da8f775da63c0efc02"
+      },
+      {
+        "path": "scripts/title_screen.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "de6fb672b688d64d666dec78f7f7bbd70d5fe313"
+      },
+      {
+        "path": "scripts/title_screen.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "05298809f9d813b3f001890eb459a8502a4e77e6"
+      },
+      {
+        "path": "scripts/tuning_defaults.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "683bbc04372c81fd4f40a91d869b3517bc53c793"
+      },
+      {
+        "path": "scripts/tuning_defaults.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "049c0eae45484a535e5fa50c6ba866472e9f2388"
+      },
+      {
+        "path": "server/0000_initial_users.sql",
+        "type": "file",
+        "mode": "100644",
+        "object": "731bf84b2da06adc3cd4a341c111c88bdd1b9f9f"
+      },
+      {
+        "path": "server/Dockerfile",
+        "type": "file",
+        "mode": "100644",
+        "object": "e1aa988fc40e83c4c55add512904e86b9584cd09"
+      },
+      {
+        "path": "server/app.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "d4a73d904b40015ec4ce56481fe7bd3667831edd"
+      },
+      {
+        "path": "server/index.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "17e73059620fc24ace43b0c63a46a824051646e5"
+      },
+      {
+        "path": "server/migrate.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "9fcb2fbf81c921439947b8299ca2b57582691cbf"
+      },
+      {
+        "path": "server/package-lock.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "496a3ca782f31f4fd2a85cdc60a24eafd68e043a"
+      },
+      {
+        "path": "server/package.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "d7c9e92e1516810bd3785e3b22f1cfce4c021011"
+      },
+      {
+        "path": "server/routers.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "8f8b2bda900450d46539a705e765e1422752dbdd"
+      },
+      {
+        "path": "server/webdev-adapter.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "45d31d1301ab505ab184d418b9ced3f2039238ce"
+      },
+      {
+        "path": "template-provenance.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "5be4ef4cccab64c5c99aac4e7d991082b7c8d89c"
+      },
+      {
+        "path": "template.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "a8a1a9b1c219725970ad7219c7809d95a1d168ab"
+      },
+      {
+        "path": "test/debug_capture.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "27039c89df414b69e8c00e8d665d9a370c08e4ea"
+      },
+      {
+        "path": "test/debug_capture.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "35b6d1a30253cb9606bcad4dd0e2ebab14c723d1"
+      },
+      {
+        "path": "test/debug_capture.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "3d81cc731b9d4b62a31fd859a329abbaa0899c6e"
+      },
+      {
+        "path": "test/english-copy.test.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "16ff4a8e15e32a736c86b2a94b8b608e3103ae73"
+      },
+      {
+        "path": "test/exported_pack_boot.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "655f01624fa16fc53b2886c098f0f7be135dfd45"
+      },
+      {
+        "path": "test/exported_pack_boot.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "423de233d0208db271b51efd9b6badea3ce13ba5"
+      },
+      {
+        "path": "test/localization.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "b1618b25ef6598dace079ab1c0d5020301eeafe8"
+      },
+      {
+        "path": "test/localization.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "a6bfa075945e63cdf1132fcadfd99aa398f928ab"
+      },
+      {
+        "path": "test/localization_capture.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "b406671dbd331aeb5f5bd00b0f9a678137de6d96"
+      },
+      {
+        "path": "test/localization_capture.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "1ffd4a88a3d5280cbd0686f4f7fb5c8380ce595a"
+      },
+      {
+        "path": "test/release_contract.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "191f94b392ab594f42c6a33b994d322b09838679"
+      },
+      {
+        "path": "test/release_contract.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "07361b13218f3f665a2b93f61c3b782681633d72"
+      },
+      {
+        "path": "test/smoke.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "6b6ffb2f8e81e86980e2660d2d52c08a55982dca"
+      },
+      {
+        "path": "test/smoke.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "f14f2960d44dffd356a78aa921abe7a34e72ee87"
+      },
+      {
+        "path": "test/template_contract.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "db217841000d46be4dc1da4ccaac8ae6db414ae5"
+      },
+      {
+        "path": "test/template_contract.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "b6ba56b630c0062f73f71053d544469ed6c6c94e"
+      },
+      {
+        "path": "test/tweak_controls.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "7d23931a0281a07ba641829f5269519f6ca42ffa"
+      },
+      {
+        "path": "test/tweak_controls.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "200d0918cba25ad0c4598b881532aa9b6da1d71b"
+      },
+      {
+        "path": "tools/build_cjk_font.py",
+        "type": "file",
+        "mode": "100644",
+        "object": "dd2a5a944c7de770b7efde8bc2e0010068dc9eda"
+      },
+      {
+        "path": "tools/game-runtime-font-codepoints.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "d58015f2c8148087b62a53d7893da2591ffa5cac"
+      },
+      {
+        "path": "tools/game-runtime-font.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "b592ef10ae9fc7cfc2e5a8b3836dbb1f580515ce"
+      },
+      {
+        "path": "tools/game-runtime-font.requirements.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "0810aab0e2ee9e8c03cc20d7e738a2b180ffa1ca"
+      },
+      {
+        "path": "tools/install_cjk_font.py",
+        "type": "file",
+        "mode": "100644",
+        "object": "28de478c5dd3ba4e09d7f3241957772cf4c3f1a3"
+      },
+      {
+        "path": "web/loader-cjk.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "8c35c5633c7b6170774f7a8af6b36ebfe63763dd"
+      },
+      {
+        "path": "web/loading.html",
+        "type": "file",
+        "mode": "100644",
+        "object": "10eda5ef68a86ee105de38f4f1ce2e7317960654"
+      }
+    ]
+  },
+  "build": {
+    "snapshotId": "sha256:130c0f0eecdd113d67fdec54063c00900c77b225efad69fd2b8e2920b7910891",
+    "toolchain": {
+      "engineVersion": "4.7.2.stable.official.ed1daf0bf",
+      "engineDigest": "sha256:8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
+      "templates": {
+        "debug": "sha256:08962aefef811b603541d7951ac67ef00413aad2d978855183c28adee98f626a",
+        "release": "sha256:d3ee2f08cef0cf3cf6678a6355a92a8db48ccdd35cbd2e8bfd5f0e8a0b4032a0"
+      },
+      "runtimeDigest": "sha256:6f3914f360133ffa8386c294d7c49ecf739eef4922e7f74a2e20ef38c483cfbf"
+    },
+    "profile": "release",
+    "export": {
+      "profile": "release",
+      "snapshotId": "sha256:130c0f0eecdd113d67fdec54063c00900c77b225efad69fd2b8e2920b7910891",
+      "files": {
+        "THIRD_PARTY_NOTICES.txt": "sha256:ccffcc57e4843b810ade33357c5d57b696168438038937ea8a9b745cdc4d9e6a",
+        "index.apple-touch-icon.png": "sha256:94fdd6afe8f514e6974c2f8d29ac98eb15c022cf9d40e1cddec6a1e50e3c4c62",
+        "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+        "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+        "index.html": "sha256:6812146b53cb0b73602e659add42395ede2d16d03f73454d918134904b5c92fa",
+        "index.icon.png": "sha256:0e63b43be48c64205c723f9b25d0519b4f95fc81f966ff02100a9ab17342cbc0",
+        "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
+        "index.pck": "sha256:624d79b0674dc93ada7ee089675d9d15ced97bf4e8547e4914bc186c09851ef2",
+        "index.png": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+        "index.wasm": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+        "open-source-licenses.html": "sha256:35f5a16f51f023ed3fb634450008f38a831d655dc3d5527e9d01f8d671864ea2"
+      },
+      "digest": "sha256:19a7db408236313636323bbdfbffa9c01bfad1f4f2fe54cbbcad02de9c5dfa82"
+    }
+  },
+  "artifacts": {
+    "wasm": {
+      "path": "/manus-storage/game/sha256/fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0.wasm",
+      "sha256": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "pck": {
+      "path": "/manus-storage/game/sha256/624d79b0674dc93ada7ee089675d9d15ced97bf4e8547e4914bc186c09851ef2.pck",
+      "sha256": "sha256:624d79b0674dc93ada7ee089675d9d15ced97bf4e8547e4914bc186c09851ef2"
+    }
+  },
+  "files": {
+    "THIRD_PARTY_NOTICES.txt": "sha256:ccffcc57e4843b810ade33357c5d57b696168438038937ea8a9b745cdc4d9e6a",
+    "game-sharing.json": "sha256:c85f8b89d5926ce941d202dc5b956797d2badeddb773336270c5ac0fce80f45a",
+    "index.apple-touch-icon.png": "sha256:94fdd6afe8f514e6974c2f8d29ac98eb15c022cf9d40e1cddec6a1e50e3c4c62",
+    "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.html": "sha256:477ff4e97733e786a301fd8bf4b33e642387390d206e8d747da9814e3d3f4dba",
+    "index.icon.png": "sha256:0e63b43be48c64205c723f9b25d0519b4f95fc81f966ff02100a9ab17342cbc0",
+    "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
+    "index.png": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "open-source-licenses.html": "sha256:35f5a16f51f023ed3fb634450008f38a831d655dc3d5527e9d01f8d671864ea2",
+    "share/6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2.png": "sha256:6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2",
+    "share/92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288.png": "sha256:92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288"
+  }
+}

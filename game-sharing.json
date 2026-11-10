@@ -1,5 +1,6 @@
 {
   "schemaVersion": 2,
+  "publicationOrigin": "https://ultimaronda-cmhnfmkg.manus.game",
   "title": "Última Ronda",
   "description": "Muévete por una arena cenital, elimina zombis y gasta tus puntos en mejoras para sobrevivir a rondas cada vez más intensas.",
   "defaultCaptions": {
@@ -9,7 +10,23 @@
     "discord": "Estoy jugando Última Ronda: movimiento rápido, hordas de zombis y mejoras por puntos."
   },
   "assets": {
-    "og": "assets/share/og_runtime_fixed.png",
-    "favicon": "assets/share/favicon_web.png"
+    "og": {
+      "digest": "sha256:92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288",
+      "path": "share/92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288.png",
+      "mime": "image/png",
+      "width": 1200,
+      "height": 675,
+      "sizeBytes": 1455095,
+      "sourcePath": "assets/share/og_runtime_fixed.png"
+    },
+    "favicon": {
+      "digest": "sha256:6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2",
+      "path": "share/6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2.png",
+      "mime": "image/png",
+      "width": 32,
+      "height": 32,
+      "sizeBytes": 2524,
+      "sourcePath": "assets/share/favicon_web.png"
+    }
   }
 }

@@ -1,18 +1,20 @@
 {
-  "name": "ultima-ronda",
+  "name": "ultima-ronda-webdev-auth",
   "private": true,
   "type": "module",
   "scripts": {
-    "export": "mkdir -p dist && godot --headless --path . --export-release Web dist/index.html",
-    "verify-export": "node scripts/check-exported-pack.mjs",
-    "check": "node scripts/manus/runtime-command.cjs ./verify.mjs",
-    "test": "node --test test/english-copy.test.mjs && node scripts/check-game.mjs",
-    "dev": "node scripts/manus/runtime-command.cjs ./server.mjs",
-    "build": "node scripts/manus/runtime-command.cjs ./build.mjs",
-    "preview:build": "node scripts/manus/runtime-command.cjs ./preview-build.mjs",
-    "preview:status": "node scripts/manus/runtime-command.cjs ./preview-build.mjs --status",
-    "doctor": "node scripts/manus/runtime-command.cjs ./doctor.mjs",
-    "inspect": "node scripts/manus/runtime-command.cjs ./inspect-file.mjs",
-    "assets:report": "node scripts/manus/runtime-command.cjs ./asset-provenance.mjs"
+    "start": "node index.mjs",
+    "migrate": "node migrate.mjs"
+  },
+  "dependencies": {
+    "axios": "^1.12.0",
+    "cookie": "^1.0.2",
+    "jose": "6.1.0",
+    "drizzle-orm": "^0.44.5",
+    "mysql2": "^3.15.0",
+    "express": "^4.21.2",
+    "@trpc/server": "^11.6.0",
+    "superjson": "^1.13.3",
+    "zod": "^4.1.12"
   }
 }
