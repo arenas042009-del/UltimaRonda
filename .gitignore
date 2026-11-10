@@ -1,0 +1,16 @@
+# Godot editor/import cache
+.godot/
+
+# Node dependencies
+node_modules/
+server/node_modules/
+
+# Local exports, captures and temporary test output
+dist/
+test-output/
+game-captures/
+*.log
+*.tmp
+.DS_Store
+
+# NOTE: Do not ignore media in assets/. The game requires those files in Git.

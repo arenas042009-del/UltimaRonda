@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "title": "Última Ronda",
+  "description": "Muévete por una arena cenital, elimina zombis y gasta tus puntos en mejoras para sobrevivir a rondas cada vez más intensas.",
+  "defaultCaptions": {
+    "x": "Sobrevive a la horda en Última Ronda. Cada ronda aprieta más: dispara, suma puntos y mejora tu equipo.",
+    "facebook": "Entra a la arena de Última Ronda: aguanta las rondas, elimina zombis y compra mejoras con tus puntos.",
+    "reddit": "Última Ronda: supervivencia arcade 2D, arena cenital, zombis y mejoras entre oleadas.",
+    "discord": "Estoy jugando Última Ronda: movimiento rápido, hordas de zombis y mejoras por puntos."
+  },
+  "assets": {
+    "og": "assets/share/og_runtime_fixed.png",
+    "favicon": "assets/share/favicon_web.png"
+  }
+}

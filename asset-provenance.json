@@ -1,0 +1,890 @@
+{
+  "assets": {
+    "assets/game/arena.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:aba3795b2a0fd8ef94945c4a4df8c23c3029bd435d891b21217186968be27a63",
+      "shipped": false,
+      "size": 6025558,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/game/arena_runtime.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/game.gd",
+        "scripts/title_screen.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ca016c22c5f708ef88ce9daa61db342ed4dea383e165eebb9e04efc9784b7163",
+      "shipped": true,
+      "size": 1467975,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/game.gd",
+        "scripts/title_screen.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/superviviente.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:30599f880a28b24c0298c62aecdd561eed2e64358b6a6eef390de09cc5793007",
+      "shipped": false,
+      "size": 1986419,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/game/superviviente_runtime.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/game.gd",
+        "scripts/title_screen.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ff97b0df9741cf35dced823412695ffb69041193e01296ee2c08162b3daf59ec",
+      "shipped": true,
+      "size": 113270,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/game.gd",
+        "scripts/title_screen.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/zombi.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:41cc01c6bcb4efc7c67065a831562ec52718bbbe2f96153d6db45e62ecc9f16e",
+      "shipped": false,
+      "size": 2737774,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/game/zombi_runtime.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/game.gd",
+        "scripts/title_screen.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:bc1d9413c607ed859b8ecb5dae78c4beb8a33a24135ae8f07da1304d7f555626",
+      "shipped": true,
+      "size": 188989,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/game.gd",
+        "scripts/title_screen.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/share/favicon.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:116fe9ec125dc96eba304d5771a81121090e870939b05d859965bba14fc12e67",
+      "shipped": false,
+      "size": 2013771,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/share/favicon_runtime.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "project.godot"
+      ],
+      "regions": [],
+      "sha256": "sha256:70ce57ccb1ea277163d43bdc2b02cbff735c54e09de4466bfff0cd9ebd646eb6",
+      "shipped": true,
+      "size": 21072,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "project.godot"
+      ],
+      "used": true,
+      "usedBy": [],
+      "versions": {
+        "sha256:3de8c53d6c8d8ff4254d1e39ba0ca29e73864bc9620e9241ef6ff807c25b9c2b": {
+          "generator": {},
+          "inputs": [],
+          "license": {},
+          "origin": "unknown",
+          "regions": [],
+          "sha256": "sha256:3de8c53d6c8d8ff4254d1e39ba0ca29e73864bc9620e9241ef6ff807c25b9c2b",
+          "size": 21057,
+          "source": {},
+          "transformations": [],
+          "usedBy": []
+        }
+      }
+    },
+    "assets/share/favicon_web.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "game-sharing.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2",
+      "shipped": true,
+      "size": 2524,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "game-sharing.json"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/share/og.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:3d62a407999849846b12cf6e0e1c4f5ed643b162b4d39db6ff30569ad5ec8b41",
+      "shipped": false,
+      "size": 5758952,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/share/og_runtime.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:6fcad798a7ce17b044c82872b861f6982916fcc440951fdd0af03b491a117ef7",
+      "shipped": false,
+      "size": 1473136,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/share/og_runtime_fixed.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "game-sharing.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288",
+      "shipped": true,
+      "size": 1455095,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "game-sharing.json"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/ai_drone.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:9670e95c1344c4eea1d82f943ea2ac30805d07158efe06d655bf0d17ec56e3fb",
+      "shipped": false,
+      "size": 16626,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/ai_mothership.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:670f31e7f3b931a833e15a94a62868b4ceb5b64389e204add69352f56546321f",
+      "shipped": false,
+      "size": 80710,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/audio/explosion.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:ab256dfd22b760c1ccc9f58ecdb06749a2a5b19a42d8f1733539e5850a200975",
+      "shipped": false,
+      "size": 9612,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/audio/hit.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:50650c1555ddf26705b9133eda2829a316d4298bcdc39aa3fd282d4aa3468712",
+      "shipped": false,
+      "size": 5643,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/audio/shoot.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:e3885aefde5f03636e557a0b724d75eb5ae0d63351cac7a1f95426a33ef7940c",
+      "shipped": false,
+      "size": 4366,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/audio/stargrave_battle.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:5b47f61f2606e87ff310168df75ad466ab2f12fc27521b54a2ab980c4e6dfd07",
+      "shipped": false,
+      "size": 955207,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/dog_ship.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:566fb270ab3f8681b18de157ec9a0ca7e7d066c3451d12bb2678de96b0577b27",
+      "shipped": false,
+      "size": 30286,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/elite_boss_barrage.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:7e1e4a6e27f8b4a18932857e806c12ffb7127869b844bb72fcdc4114ad177e86",
+      "shipped": false,
+      "size": 67744,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/elite_boss_geometry.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:d306d7625d86b99805218c307d2d5df409ddd8bb1293075799b1832f290724f6",
+      "shipped": false,
+      "size": 74986,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/elite_boss_laser.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:dcb226f78cacbe20eb9d8f5159d65ef3eedfc1597a7a84fdd2f273602e335174",
+      "shipped": false,
+      "size": 51650,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/fonts/Exo2-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/ui_bold.tres",
+        "assets/template/fonts/ui_medium.tres",
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:7dd9d9a08bca3097f107c089b8b1f12ed1e99330a04243220f8d187da9f491ed",
+      "shipped": true,
+      "size": 55012,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/ui_bold.tres",
+        "assets/template/fonts/ui_medium.tres",
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/ManusCC0-Bold.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "attributionRequired": false,
+        "commercialUseAllowed": true,
+        "copyrightNoticeRequired": false,
+        "editableProjectDistributionAllowed": true,
+        "id": "CC0-1.0",
+        "licenseNoticeRequired": false,
+        "modificationAllowed": true,
+        "modificationNoticeRequired": false,
+        "notice": "assets/template/fonts/ManusCC0-CC0.txt",
+        "redistributionAllowed": true,
+        "reusableTemplateDistributionAllowed": true,
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "origin": "external",
+      "receipt": {
+        "path": "docs/provenance/fonts/replacement-fonts.json",
+        "sha256": "sha256:4f470e52b7d0f0fb12d084e079cbfdd3ea24d0a1d58ad62397171705b4ee1077"
+      },
+      "referenceEvidence": [
+        "assets/template/fonts/display/display_title.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "shipped": true,
+      "size": 10308,
+      "source": {
+        "memberPath": "fonts/ManusCC0-Bold.woff2",
+        "name": "ManusCC0-Bold"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/display_title.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/ManusCC0SansCJKSC-Bold.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "attributionRequired": false,
+        "commercialUseAllowed": true,
+        "copyrightNoticeRequired": false,
+        "editableProjectDistributionAllowed": true,
+        "id": "CC0-1.0",
+        "licenseNoticeRequired": false,
+        "modificationAllowed": true,
+        "modificationNoticeRequired": false,
+        "notice": "assets/template/fonts/ManusCC0SansCJKSC-CC0.txt",
+        "redistributionAllowed": true,
+        "reusableTemplateDistributionAllowed": true,
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "origin": "external",
+      "receipt": {
+        "path": "docs/provenance/fonts/replacement-fonts.json",
+        "sha256": "sha256:4f470e52b7d0f0fb12d084e079cbfdd3ea24d0a1d58ad62397171705b4ee1077"
+      },
+      "referenceEvidence": [
+        "assets/template/fonts/display/display_title.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:1f36038ab04123370c72fda640a309e374b58cc3121c493f129e38a53a4225f0",
+      "shipped": true,
+      "size": 951448,
+      "source": {
+        "memberPath": "fonts/ManusCC0SansCJKSC-Bold.woff2",
+        "name": "ManusCC0SansCJKSC-Bold"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/display_title.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "id": "OFL-1.1",
+        "url": "https://openfontlicense.org/open-font-license-official-text/"
+      },
+      "origin": "template",
+      "referenceEvidence": [
+        "assets/template/fonts/noto_sans_sc_bold.tres",
+        "assets/template/fonts/noto_sans_sc_medium.tres",
+        "assets/template/fonts/noto_sans_sc_regular.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
+      "shipped": true,
+      "size": 1869368,
+      "source": {
+        "name": "NotoSansSC-VF.subset.woff2"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/noto_sans_sc_bold.tres",
+        "assets/template/fonts/noto_sans_sc_medium.tres",
+        "assets/template/fonts/noto_sans_sc_regular.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/star_graveyard.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:f448356c85ab9fb59fb2edb8a939a28563e0a2c1e255372d8c474c85dccf03fa",
+      "shipped": false,
+      "size": 52268,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/star_graveyard_mid.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:7ba46b9df1c9a1042f3fb3bea3691d24c0098dbb167fb1e690904fb8bb0b0c70",
+      "shipped": false,
+      "size": 211018,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/star_graveyard_near.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:681d2776cd436ad57a1876d3d864b28d816e8ef0bb34caadd18610734ea5dabc",
+      "shipped": false,
+      "size": 156040,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    }
+  },
+  "discoveries": {},
+  "downloads": {},
+  "export": {
+    "coverage": "verified",
+    "hostMedia": [
+      {
+        "contentMatches": [],
+        "path": "index.apple-touch-icon.png",
+        "sha256": "sha256:94fdd6afe8f514e6974c2f8d29ac98eb15c022cf9d40e1cddec6a1e50e3c4c62",
+        "size": 36775,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.icon.png",
+        "sha256": "sha256:0e63b43be48c64205c723f9b25d0519b4f95fc81f966ff02100a9ab17342cbc0",
+        "size": 22785,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.png",
+        "sha256": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+        "size": 21443,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "share/6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2.png",
+        "sha256": "sha256:6aea3291151dc7054ada8445accc4fc30c1a677a277b4971f33e139a9da780b2",
+        "size": 2524,
+        "sourcePaths": [
+          "assets/share/favicon_web.png"
+        ]
+      },
+      {
+        "contentMatches": [],
+        "path": "share/92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288.png",
+        "sha256": "sha256:92ada8440c65adb0ee728802dce7c060b310c50f7022178e7abd8591250fb288",
+        "size": 1455095,
+        "sourcePaths": [
+          "assets/share/og_runtime_fixed.png"
+        ]
+      }
+    ],
+    "pckSha256": "sha256:624d79b0674dc93ada7ee089675d9d15ced97bf4e8547e4914bc186c09851ef2",
+    "profile": "release",
+    "sourceFingerprint": "sha256:ae586832a202fa84ff1ffdbab65da01e20fd6bd1d82abf53361194f5700178ec"
+  },
+  "procedures": {},
+  "summary": {
+    "ancestry": {
+      "ai": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      }
+    },
+    "derivatives": {
+      "retained": 0,
+      "shipped": 0,
+      "used": 0
+    },
+    "exportedHostMedia": {
+      "paths": 5,
+      "uniqueHashes": 5,
+      "unmatchedSourcePaths": 3
+    },
+    "files": {
+      "downloaded": 0,
+      "retained": 29,
+      "shipped": 10,
+      "used": 10
+    },
+    "origins": {
+      "ai": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "derivative": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "external": {
+        "retained": 2,
+        "shipped": 2,
+        "used": 2
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "template": {
+        "retained": 1,
+        "shipped": 1,
+        "used": 1
+      },
+      "unknown": {
+        "retained": 26,
+        "shipped": 7,
+        "used": 7
+      }
+    },
+    "packs": {
+      "discovered": 0,
+      "downloaded": 0,
+      "shipped": 0,
+      "used": 0
+    },
+    "proceduralSystems": {
+      "retained": 0,
+      "used": 0
+    },
+    "spriteRegions": {
+      "retained": 0,
+      "shipped": 0,
+      "used": 0
+    },
+    "visualCoverage": {
+      "approvedRevision": 4,
+      "blueprintId": "gbp_7c5cae76a3d01f5acf966186",
+      "committedRoles": 6,
+      "expectedDigest": "33d26cd9e2377a7e6f4563e78d10f34bbb2f4bae0f6b22e719b1cf9fc54fc0ef",
+      "fulfilledRoles": 0,
+      "roles": [
+        {
+          "id": "superviviente",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "zombis",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "armas_proyectiles",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "arena",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "efectos_combate",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "interfaz_rondas_mejoras",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        }
+      ],
+      "search": {
+        "checkedPages": 0,
+        "outcomes": 0,
+        "overflowEvents": 0,
+        "requests": 0
+      },
+      "selectedButUnusedAssets": [],
+      "staleRenderedEvidence": [],
+      "status": "incomplete",
+      "unexplainedFallbacks": [],
+      "unresolvedRoles": [
+        "superviviente",
+        "zombis",
+        "armas_proyectiles",
+        "arena",
+        "efectos_combate",
+        "interfaz_rondas_mejoras"
+      ],
+      "visualQuality": "requires_agent_review"
+    }
+  },
+  "version": 1,
+  "visualCoverage": {
+    "attempts": {},
+    "expected": {
+      "approvedRevision": 4,
+      "blueprintId": "gbp_7c5cae76a3d01f5acf966186",
+      "digest": "33d26cd9e2377a7e6f4563e78d10f34bbb2f4bae0f6b22e719b1cf9fc54fc0ef",
+      "roles": [
+        {
+          "description": "Representa a tu personaje con lectura clara desde arriba y animaciones para moverse, apuntar, disparar, recibir daño y caer.",
+          "id": "superviviente",
+          "label": "Superviviente jugable cenital"
+        },
+        {
+          "description": "Da forma a las hordas de tu juego con siluetas distinguibles y animaciones de avance, ataque, impacto y eliminación.",
+          "id": "zombis",
+          "label": "Enemigos zombi cenitales"
+        },
+        {
+          "description": "Hace visibles tus disparos y su dirección durante la acción rápida, con escala y contraste adecuados para la vista cenital.",
+          "id": "armas_proyectiles",
+          "label": "Armas y proyectiles legibles"
+        },
+        {
+          "description": "Define el espacio jugable de tu arena 2D y sus límites, manteniendo despejadas las rutas de movimiento y la lectura de las hordas.",
+          "id": "arena",
+          "label": "Arena de combate cenital"
+        },
+        {
+          "description": "Comunica en tu juego los impactos, el daño y las bajas con efectos 2D breves que no oculten amenazas ni proyectiles.",
+          "id": "efectos_combate",
+          "label": "Efectos de impacto y eliminación"
+        },
+        {
+          "description": "Muestra con claridad tus puntos, estado de ronda, salud y decisiones de mejora entre oleadas sin interrumpir la lectura del combate.",
+          "id": "interfaz_rondas_mejoras",
+          "label": "Interfaz de rondas, puntos y mejoras"
+        }
+      ]
+    },
+    "overflowEvents": 0,
+    "resolutions": {},
+    "version": 1
+  }
+}
